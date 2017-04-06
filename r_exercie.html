@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+ <html>
+	<head id="Rodolphe">
+	 <meta charset="UTF-8">
+	 <link rel="stylesheet" type="text/css" href="styler.css">
+	 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 	
+	 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js">
+	 </script>
+	 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="script.js">
+	  <title>Rodolphe training</title>
+	</head>
+		<body>
+		    <header> 
+			   <h1> </h1>
+			</header>
+			<nav>
+			  <ul>
+			  	<li><a href="index.html">Home </a></li>
+			  </ul>
+			</nav>
+		   <section>			  	  		  				  			
+				 <script id="limiteur">
+	  			 </script>
+		            <form name="formulaire" method="post" action="">
+				       <label id="label"> Nom: </label>
+						 <br>
+						  <input type="text" name="nom" id="pseudo" placeholder="Ex : Martin">
+						 <br>
+						<br>
+					   <label id="label"> Prénom </label>
+						 <br>
+						  <input type="text" name="prenom" id="pseudo" placeholder="Ex : Rose">
+						 <br>
+					 	<br>
+					   <label id="label"> Email</label>
+						<br>
+						  <input type="email" name= "email" id="adresse email" placeholder="Ex : nom.prenom@gmail.com">
+						 <br>
+
+					   <label class="col-md-3 control-label" for="ConfirmPassword"> Password</label>
+					     <br>
+					   <input id="ConfirmPassword" type="password" class="form-control" name="ConfirmPassword" ng-model="ConfirmPassword"/>
+
+					   </div>
+						  <br>
+					   <label id="label" for="Message">votre avis?</label><br />
+						  <br>
+				       <textarea name="texte" cols="40" rows="15" onKeyDown="limiteur();" onKeyUp="limiteur();">                    	
+				       </textarea>
+					     <br>
+				         Il vous reste 
+				       <input readonly type=text name="indicateur" size="3" maxlength=3 value="50"> caractères.
+					   <input type="submit" value="se connecter" />
+	                </form>
+		   </section> 
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

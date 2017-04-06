@@ -1,0 +1,59 @@
+html,body,head{
+	background-image:		 url(bg.jpeg); 
+	color:					 black; 
+	background-size: 		 100% 100%;
+	background-attachment: 	 fixed;
+	width: 					 100% 100%;
+}
+header{
+
+	display:                  inline-block;
+	text-align: 			  center;
+	font-family: 			  'Courgette', cursive;
+    color:     				  white;
+    margin-top: 			  8px;
+}
+
+
+nav{
+	display: 				  inline-block;
+	width: 					  150px;
+	border:                   1px solid transparent;
+	vertical-align:           top;
+	color:                    #CECECE;
+    font-family: 			  'Courgette', cursive;
+}
+ 
+section {
+	vertical-align: 		  top;
+	margin-left: 			  550px;
+	display:                  inline-block;
+	border:                   1px solid;
+	margin-left:              80px;
+	margin-right:             50px;
+	color:                    transparent;
+	
+}
+
+a{
+	display:                   inline-block;
+
+	color:                     #CECECE;
+	font-size:                 1.5em;
+
+}
+#message{
+
+	display:                  inline-block;
+	text-align: 			  center;
+	font-family: 			  'Courgette', cursive;
+    color:     				  blue;
+    margin-top: 			  0px;
+}
+#for{
+	display:                  inline-block;
+	text-align: 			  center;
+	font-family: 			  'Courgette', cursive;
+    color:     				  blue;
+    margin-top: 			  8px;
+}

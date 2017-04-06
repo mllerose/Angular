@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+	<html ng-app="" ng-controller="hello">
+		<head>
+		 <meta charset="UTF-8">
+		 <link rel="stylesheet" type="text/css" href="style.css">
+		 <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">  
+		 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js">	
+		 </script>
+		  <title>Home</title>
+		</head>
+			<body>
+				 <header>
+				   <h1>Training Angular/Bootstrap </h1>
+				 </header>
+				 <br>
+				 <p>
+				<div id="for">
+				  Message :
+				   <input id="message" type="text" ng-model="aQui">
+				    <br>
+				    <br> Hello {{aQui}}
+				</div>
+				<script> 
+				 function hello($scope) {
+								$scope.aQui= "";
+					   			}
+				</script>
+			    <nav>
+				  <ul>
+				  	<li><a href="r_exercie.html">Training Rodolphe Angular.js </a></li>
+				  </ul>
+				</nav>
+			</body>
+	</html>
+
+
+					
